@@ -1,0 +1,200 @@
+<!--Source: https://www.youtube.com/watch?v=kX3TfdUqpuU&list=PL0Zuz27SZ-6OlAwitnFUubtE93DO-l0vu&index=7-->
+<!-- First version of my blog -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- contains metadata about the page -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Fastoch">
+  <meta name="description" content="This page contains all the things I create as I learn HTML.">
+  <title>Fastoch Blog</title>
+  <link rel="icon" href="images/Rose-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="main.css" type="text/css"> <!--The type attribute might be optional-->
+</head>
+
+<body> <!--contains actual seeable data of your webpage-->
+  <header>
+    <h1>Hello Everyone!</h1>
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li><a href="#journey">My journey</a></li>
+        <li><a href="#schedule">My schedule</a></li>
+        <li><a href="#resources">Learning resources</a></li>
+        <li><a href="#tools">My favorite tools</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#front-end-skills">Front-end skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+    <h2>My name is Fastoch and this is my blog</h2>
+    <p>&nbsp;This website's purpose is to help <strong>aspiring web developers</strong> achieve their goals.</p>
+    <img src="images/webdev.png" alt="Web Dev for Beginners" class="webdev" title="The expert in anything was once a beginner">
+    <br><br>
+    <aside>
+      <details>
+        <summary>What's the fastest way to learn coding ?</summary>
+        <p>while (true) {
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;if(tired) {
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;getSomeSleep();
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;}
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;else {
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Practice();
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;}
+          <br>}
+        </p>
+    </details>
+    </aside>
+    <br>
+    <hr>
+
+    <article id="journey">
+      <h2>My journey</h2>
+        <p>&nbsp;I've been an agricultural engineer, then a teacher, before finally finding what really drives me: <mark>Computer Science</mark>.
+          <br>
+          &nbsp;My first four years in this field were spent mostly as a member of an <abbr title="Information Technology">IT</abbr> support team. Which taught me a lot, but didn't satisfy my need for learning.
+          <br>
+          &nbsp;Hence, I decided to become a web developer and started to learn <em><mark>Front-End Web Development.</mark></em>
+        </p>
+        <p>
+          &nbsp;But you can't really become a web developer on your own...
+          <br>
+          &nbsp;I coudn't have made it without the help of people who have the kindness to share their knowledge freely and helped me acquire the skills I needed.
+          <br>
+          &nbsp;Which is why I created this blog, to bring my humble contribution to this amazing community of programmers by returning the favor I benefited.
+        </p>
+        <img src="images/webdevjourney.png" alt="Start your Web Dev Journey" class="webdev" title="Take a small step every day.">
+        <br>
+    </article>
+
+    <hr>
+
+    <article id="schedule">
+      <h2>My Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+          </tr>
+        </thead>
+        <tr>
+          <td><time datetime="08:00">8am</time>-<time datetime="11:00">11am</time></td>
+          <td>Write code</td>
+        </tr>
+        <tr>
+          <td><time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time></td>
+          <td>Eat something</td>
+        </tr>  
+        <tr>
+          <td><time datetime="12:00">12pm</time>-<time datetime="16:00">4pm</time></td>
+          <td>Write code</td>     
+        </tr>
+        <tr>
+          <td rowspan="2">All other times</td>
+          <td>Free time</td>
+        </tr>
+        <tr>
+          <td>Sleep</td>
+        </tr>
+      </table>
+      <br>
+    </article>
+
+    <hr>
+
+    <article id="resources">
+      <h2>Learning Resources</h2>
+        <ul>
+          <li><a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a></li>
+          <li><a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></li>
+          <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+          <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+          <li><a href="https://css-tricks.com/guides/" target="_blank">CSS-Tricks</a></li>
+          <li><a href="https://www.codewars.com/dashboard" target="_blank">Code Wars</a></li>
+        </ul>
+        <br>
+    </article>
+
+    <hr>
+    
+    <article id="tools">
+      <h2>My favorite tools</h2>
+        <ul>
+          <li><a href="https://app.netlify.com/" target="_blank">Netlify</a></li>
+          <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+          <li><a href="https://codepen.io/" target="_blank">Codepen</a></li>
+          <li><a href="https://validator.w3.org/" target="_blank">W3C validator</a></li>
+        </ul>
+        <img src="images/vscode.jpg" alt="Visual Studio Code logo" class="vscode" title="The greatest code editor ?" loading="lazy">
+        <img src="images/netlify-logo.png" alt="Netlify logo" class="netlify" title="Host your websites" loading="lazy">
+        <img src="images/github-logo.png" alt="GitHub logo" class="netlify" title="Host your Open Source Projects" loading="lazy">
+        <img src="images/codepen-logo.jpg" alt="Codepen logo" class="codepen" title="Online code editor and open-source learning environment" loading="lazy">
+        <br>
+    </article>
+    
+    <hr>
+    
+    <article id="projects">
+      <h2>My Projects</h2>
+        <dl> <!-- Description List, description term and description details -->
+          <dt><a href="https://fastoch.netlify.app/" target="_blank">My Portfolio</a></dt>
+          <dd>This is my first online resume.</dd>
+          <dt><a href="" target="_blank">Project0</a></dt>
+          <dd>...</dd>
+          <dt><a href="" target="_blank">Project1</a></dt>
+          <dd>...</dd>
+          <dt><a href="" target="_blank">Project2</a></dt>
+          <dd>...</dd>
+        </dl>
+        <br>
+    </article>
+
+    <hr>
+
+    <article id="front-end-skills">
+      <h2>What you need to learn as a front-end web developer</h2>
+        <p>
+          A front-end developer must master the following languages: 
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <br>
+          You won't actually use JavaScript as such, but probably one of these popular JavaScript frameworks:
+          <ul>
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue</li>
+          </ul>
+          <a href="https://www.wildcodeschool.com/en-GB/blog/what-is-a-framework-definition" target="_blank">To know more about frameworks.</a>
+          <br>
+          <br>
+          As a front-end web developer, you will also need to familiarize yourself with some code editor.
+          <br>
+          Many developers use Visual Studio Code, I'm one of those. But you have many <a href="https://www.hostinger.com/tutorials/best-code-editors" target="_blank">other options</a> at your disposal.
+        </p>
+    </article>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>
+      &lt;&lt;&lt; &copy; <a href="about.html" target="_blank">Fastoch</a> &gt;&gt;&gt;
+    </p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
+<!--As a beginner, avoid using <div></div> and <span></span> elements-->
+<!--Look this for more info: https://youtu.be/kX3TfdUqpuU?t=1140-->
+<!--The Chrome extension "Semantic HTML Viewer" is very useful-->

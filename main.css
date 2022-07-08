@@ -1,0 +1,51 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+h1 {
+    color:rgb(226, 185, 73)
+}
+
+a {
+    color: rgb(209, 69, 123);
+}
+
+a:visited {
+    color: rgb(243, 219, 8);
+}
+
+a:hover {
+    color: #eee;
+  }
+
+.webdev {
+    height: auto;
+    max-width: 500px;
+}
+
+.netlify {
+    height: auto;
+    max-width: 400px;
+}
+
+.codepen {
+    height: auto;
+    max-width: 200px;
+}
+
+.vscode {
+    height: auto;
+    max-width: 360px;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem ;
+}
