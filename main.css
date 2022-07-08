@@ -48,4 +48,5 @@ table, tr, th, td, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem ;
+    text-align: center;
 }
