@@ -221,68 +221,75 @@
       <p>Feel free to ask any question or post a comment through this form:</p>
 
       <form action="https//httpbin.org/get" method="get">
-        <!--website which displays the information we sent with the form-->
-        <p>
-          <label for="firstname">First Name:</label>
-          <input type="text" name="firstname" id="firstname" placeholder="John" autocomplete="on" required>
-        </p>
-        <p>
-          <label for="lastname">Last Name:</label>
-          <input type="text" name="lastname" id="lastname" placeholder="Doe" autocomplete="on" required>
-        </p>
-        <p>
-          <label for="password">Password:</label>
-          <input type="password" name="password" id="password" placeholder="**********" required>
-        </p>
-        <p>
-          <label for="phone">Phone:</label>
-          <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{10}" required>
-        </p>
-        <p>
-          <label for="decade">Favorite decade:</label>
-          <input type="number" name="decade" id="decade" min="1920" max="2020" step="10" value="1980">
-        </p>
-        <p>
-          <label for="beverage">Favorite beverage:</label>
-          <select name="beverage" id="beverage">
-            <optgroup label="Coffees">
-              <option value="coffee">Coffee</option>
-              <option value="cappuccino">Cappuccino</option>
-              <option value="latte">Latte</option>
-              <option value="mochaccino">Mochaccino</option>
-            </optgroup>
-            <optgroup label="Juices">
-              <option value="tomato juice">Tomato Juice</option>
-              <option value="orange juice" selected>Orange Juice</option>
-              <option value="apple juice">Apple Juice</option>
-            </optgroup>
-            <optgroup label="Alcoholic Drinks">
-              <option value="whisky">Whisky</option>
-              <option value="wine">Wine</option>
-              <option value="beer">Beer</option>
-            </optgroup>
-            <option value="other">Other</option>
-          </select>
-        </p>
-        <p>
-          <label for="language">First programming language:</label>
-          <input type="text" name="language" id="language" list="language-list">
-          <datalist id="language-list">
-            <option value="C">
-            <option value="C++">
-            <option value="Python">
-            <option value="JavaScript">
-            <option value="Java">
-            <option value="Other">
-          </datalist>
-        </p>
-        <p>
+        <!--httpbin.org = website which displays the info we sent with the form-->
+        <fieldset>
+          <legend>Personal Info</legend>
+          <p>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="John" autocomplete="on" required>
+          </p>
+          <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Doe" autocomplete="on" required>
+          </p>
+          <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="**********" required>
+          </p>
+          <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{10}" required>
+          </p>
+          <p>
+            <label for="decade">Favorite decade:</label>
+            <input type="number" name="decade" id="decade" min="1920" max="2020" step="10" value="1980">
+          </p>
+          <p>
+            <label for="language">First programming language:</label>
+            <input type="text" name="language" id="language" list="language-list">
+            <datalist id="language-list">
+              <option value="C">
+              <option value="C++">
+              <option value="Python">
+              <option value="JavaScript">
+              <option value="Java">
+              <option value="Other">
+            </datalist>
+          </p>
+          <p>
 
-        </p>
-        <p>
-          <label for="message">Your message:</label>
-          <input type="textarea" name="message" id="message" required>
-        </p>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Favorite Food</legend>
+          <p>
+            <label for="beverage">Favorite beverage:</label>
+            <select name="beverage" id="beverage">
+              <optgroup label="Coffees">
+                <option value="coffee">Coffee</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="latte">Latte</option>
+                <option value="mochaccino">Mochaccino</option>
+              </optgroup>
+              <optgroup label="Juices">
+                <option value="tomato juice">Tomato Juice</option>
+                <option value="orange juice" selected>Orange Juice</option>
+                <option value="apple juice">Apple Juice</option>
+              </optgroup>
+              <optgroup label="Alcoholic Drinks">
+                <option value="whisky">Whisky</option>
+                <option value="wine">Wine</option>
+                <option value="beer">Beer</option>
+              </optgroup>
+              <option value="other">Other</option>
+            </select>
+          </p>
+          <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos">Tacos</label>
+          </p>
+        </fieldset>
       </form>
     </article>
 
