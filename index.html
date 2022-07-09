@@ -200,9 +200,13 @@
 
     <article id="contact">
       <h2>Contact Me</h2>
-        <p>Fill in the form if you have any questions or comments:</p>
-        <form action="">
-
+        <p>Please, don't hesitate to ask any question or post a comment through the form below:</p>
+        <form action="https//httpbin.org/get" method="get"> <!--website which displays the information we sent with the form-->
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" id="firstname" placeholder="John" autocomplete="on" required>
+          <br>
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" id="lastname" placeholder="Doe" autocomplete="on" required>
         </form>
     </article>
 
